@@ -13,7 +13,6 @@ import java.util.Scanner;
 public class Massive {
     public static void main(String[] args) {
         System.out.print("Введите количество чисел в массиве: ");
-
         Scanner in = new Scanner(System.in);
         String count=in.nextLine();
 
@@ -44,7 +43,7 @@ public class Massive {
                     break;
             }
         }
-        for (int i=0; i<Integer.valueOf(count); i++){
+        for (int i=0; i<5; i++){
             if (countNum[i]!=0)
             System.out.println(i+" "+countNum[i]);
         }
