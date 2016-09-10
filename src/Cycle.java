@@ -23,7 +23,6 @@ public class Cycle {
         System.out.print("Введите числа через пробел: ");
         String numSt=in.nextLine();
         String [] num=(numSt).split(" ");
-
         int sum=0;
         for (int i=0; i<Integer.valueOf(count); i++){
             sum+=Integer.valueOf(num[i]);
